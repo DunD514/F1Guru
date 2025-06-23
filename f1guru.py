@@ -1,3 +1,4 @@
+#please replace the placeholder with your api key 
 import os
 import json
 import random
@@ -52,7 +53,7 @@ class F1GuruAssistant:
 
     def initialize_gemini(self):
         try:
-            genai.configure(api_key="AIzaSyCvBXZg1LPI9XRbwA5ksWnvqKXcYIlkT1U")  # Hardcoded Gemini API key
+            genai.configure(api_key="this has been removed for safety pouroses ")  # Hardcoded Gemini API key
             model = genai.GenerativeModel(
                 model_name="gemini-1.5-flash",
                 system_instruction=(
